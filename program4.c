@@ -10,11 +10,12 @@ int dodaj(int a, int b)
 {
 	return a + b;
 }
-
 int main(void)
 {
 	int a = 2, b = 5; /* deklaracja zmiennych wraz z inicjalizacja */;
-	char(wybor) = '+';
+	char wybor;
+	printf("wpisz + lub *\n");
+	scanf("%c",&wybor); /* czytaj z komsoli i zapisz pod wybor  */
 	/*  if(warunek) {blok jesli wyrazenie prawdziwe}
 	    else {blok jesli wyrazenie falszywe};     */
 	if(wybor == '*') /* sprawdzenie czy rowne, to nie jest '='  */
