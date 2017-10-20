@@ -1,1 +1,3 @@
+#pliki ignorowane
 *.o
+*.out
